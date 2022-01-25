@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
   } else {
     // return a badge based on which license is passed in
     license = license.split('').join('%20');
-    return '![License Badge](https://img.shields.io/badge/license-${license}-blue.svg)';
+    return `![License Badge](https://img.shields.io/badge/license-${license}-blue.svg)`;
   }
 }
 
@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
     return "";
   } else {
     //return corresponding link to license passed in
-    return '![License Link](https://opensource.org/licenses/${license})';
+    return `![License Link](https://opensource.org/licenses/${license})`;
   }
 }
 
