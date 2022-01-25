@@ -112,11 +112,10 @@ function renderLicenseSection(data) {
     ${data.tests}
 
     ## **Questions:**
-    * To take a closer look at this app or my other work, checkout my GitHub account:
-    https://github.com/${data.github}
-    * Feel free to contact me directly at ${data.email}
-`;
-  }
+    * To take a closer look at this app or my other work, checkout my [GitHub account](https://github.com/${data.github})
+    * Feel free to contact me directly through [email](${data.email})
+  `;
+}
 
   // make data from this file available to other files
   module.exports = generateMarkdown;

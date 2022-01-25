@@ -122,19 +122,17 @@ const questions = () => {
 };
 
 // write README file
-questions ()
-    .then(projectData => {
-        const readMeFile = generateMarkdown(projectData)
-        fs.writeFile('./dist/README.md', readMeFile, err => {
-            if (err) {
-                console.log(err);
-                return;
-            } else {
-                console.log('README was successfully created, check it out!');
-            }
-        });
+const readMeFile = (data) => {
+    fs.writeFile('./dist/README.md', data, err => {
+        if (err) {
+            console.log(err);
+            return;
+        } else {
+            console.log('README was successfully created, check it out!');
+        }
     });
-
+};
+    
     // function to initialize app
     function init() { 
         questions()
@@ -143,7 +141,7 @@ questions ()
           return generateMarkdown(answers);
         })
         .then((data) => {
-          return writeFile(data);
+          return readMeFile(data);
         })
         .catch((err) => {
           console.log(err);

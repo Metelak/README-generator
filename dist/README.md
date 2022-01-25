@@ -1,8 +1,9 @@
 
-    # **portfolio generator**
+    # **megan**
+    [License Badge](https://img.shields.io/badge/license-${license})
 
     ## **Description:**
-    generates a portfolio based on github pojects
+    metelak
 
     ## **Table of Contents:**
     * [Installation](#Installation)
@@ -13,21 +14,23 @@
     * [Questions](#Questions)
 
     ## **Installation:**
-    clone from repo
+    as;lkdfjsdkf's
 
     ## **Usage:**
-    open in vs code, type node app in terminal, answer all required questions, generates page
+    asdfkjasd;fkjasdkf
 
     ## **License:**
-    MIT
+    [License Badge](https://img.shields.io/badge/license-${license})
+    [License Link](https://opensource.org/licenses/${license})
+    
 
     ## **Contributions:**
-    add as you please
+    asdlkfjasdkjf
 
     ## **Tests:**
-    check for erros
+    as;dklfjsadkfj
 
     ## **Questions:**
     * To take a closer look at this app or my other work, checkout my GitHub account:
-    https://github.com/Metelak
-    * Feel free to contact me directly at megan.metelak@gmail.com
+    https://github.com/asdkfjasdkfj
+    * Feel free to contact me directly at asd;klfjaskdjf
