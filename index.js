@@ -1,10 +1,10 @@
 // packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+// connecting README file creator
 const generateMarkdown = require('./utils/generateMarkdown');
-const generatePage = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// array of questions for user input
 const questions = () => {
     return inquirer.prompt([
         {
@@ -135,8 +135,20 @@ questions ()
         });
     });
 
-    // // TODO: Create a function to initialize app
-    function init() { }
+    // function to initialize app
+    function init() { 
+        questions()
+        // captured input
+        .then((answers) => {
+          return generateMarkdown(answers);
+        })
+        .then((data) => {
+          return writeFile(data);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    }
 
-    // // Function call to initialize app
+    // call to initialize app
     init();
