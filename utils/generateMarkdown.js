@@ -104,7 +104,6 @@ ${data.usage}
 
 ## **License:**
 ${renderLicenseBadge(data.license)}
-${renderLicenseLink(data.license)}
 ${renderLicenseSection(data)}
 
 ## **Contributions:**

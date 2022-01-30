@@ -1,9 +1,9 @@
 
-# **Generator**
+# **Challenge 9**
 ![License Badge](https://img.shields.io/badge/license-The%20Unlicense-blue/)
 
 ## **Description:**
-we are generating a README file with our project information
+create a README generator using prompts in commandline
 
 ## **Table of Contents:**
 * [Installation](#Installation)
@@ -14,14 +14,13 @@ we are generating a README file with our project information
 * [Questions](#Questions)
 
 ## **Installation:**
-clone repo to local folder
+Download Node.js, clone files from repo to local folder, open in VS code, run npm install
 
 ## **Usage:**
-1. clone repo 2. type node index in terminal
+run node index.js in command line, follow prompts and input personal project information, preview generated README
 
 ## **License:**
 ![License Badge](https://img.shields.io/badge/license-The%20Unlicense-blue/)
-![License Link](https://opensource.org/licenses/The Unlicense)
 
 ### **The Unlicense**
 
@@ -52,10 +51,10 @@ For more information, please refer to <http://unlicense.org/>
     
 
 ## **Contributions:**
-update design and categories of README
+Adjust design and categories of README file, clone to local system and push to your own personal repo 
 
 ## **Tests:**
-Return to repo to checkout preview of generated README
+check to see if README file was generated in dist folder, console will return err if something went wrong
 
 ## **Questions:**
 * To take a closer look at this app or my other work, checkout my [GitHub account](https://github.com/Metelak)
