@@ -20,6 +20,7 @@ With this application you will be able to generate a README file that looks prof
 Step 1: Download Node.js on your computer. Install link located in [Resources](#Resources) section.
 
 Step 2: Clone [these](https://github.com/Metelak/README-generator) repo files from GitHub onto your local drive
+![Inkedclone_LI](https://user-images.githubusercontent.com/94068596/151707838-2a4046d0-f681-4e7d-89e2-e089b88ac722.jpg)
 
 Step 3: Open files in VS Code, use terminal to run "npm install" to make sure all packages needed to run this app are installed.
 
@@ -49,6 +50,7 @@ If you would like me to consider your ideas to improve this repo, contact me dir
 
 ## **Tests:**
 To test if this app worked, check the "dist" folder to local a generated README file with your information inputted, otherwise the console should return an ERROR with explaination in the terminal.
+![Inkedreadme_LI](https://user-images.githubusercontent.com/94068596/151708008-b469cac1-6472-4ddd-9f6b-a880578e7949.jpg)
 
 ## **Questions:**
 * To take a closer look at this app or my other work, checkout my [GitHub account](https://github.com/Metelak)
