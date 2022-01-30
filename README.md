@@ -32,6 +32,8 @@ Step 3: Open files in VS Code, use terminal to run "npm install" to make sure al
 
 [Find video instructions here](https://watch.screencastify.com/v/dqmNT1SbcX4IfC2Hewb6)
 
+[Find video explaination of README features in repo here](https://watch.screencastify.com/v/H6Gg1Ssa84xyrvykDM57)
+
 ## **License:**
 ### **MIT License**
 
