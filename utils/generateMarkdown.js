@@ -5,22 +5,22 @@ function renderLicenseBadge(license) {
     return "";
   } else {
     // return a badge based on which license is passed in
-    license = license.split('').join('%20');
-    return `![License Badge](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    license = license.split(" ").join("%20");
+    return `![License Badge](https://img.shields.io/badge/license-${license}-blue/)`;
   }
 }
 
 
 // license link function
-function renderLicenseLink(license) {
-  if (!license) {
-    // If there is no license, return an empty string
-    return "";
-  } else {
-    //return corresponding link to license passed in
-    return `![License Link](https://opensource.org/licenses/${license})`;
-  }
-}
+// function renderLicenseLink(license) {
+//   if (!license) {
+//     // If there is no license, return an empty string
+//     return "";
+//   } else {
+//     //return corresponding link to license passed in
+//     return `![License Link](https://opensource.org/licenses/${license})`;
+//   }
+// }
 
 // license section of README function
 function renderLicenseSection(data) {
@@ -41,7 +41,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-    `
+
+For more information, please refer to <https://opensource.org/licenses/MIT>
+  `
     return mitLicense;
     // return Unlicense information
   } else if (data.license === 'The Unlicense') {
@@ -103,7 +105,7 @@ ${data.usage}
 ## **License:**
 ${renderLicenseBadge(data.license)}
 ${renderLicenseLink(data.license)}
-${renderLicenseSection(data.license)}
+${renderLicenseSection(data)}
 
 ## **Contributions:**
 ${data.contribution}
