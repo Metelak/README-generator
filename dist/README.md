@@ -3,7 +3,7 @@
 ![License Badge](https://img.shields.io/badge/license-The%20Unlicense-blue/)
 
 ## **Description:**
-create a README generator using prompts in commandline
+creating a README generator using prompts in command line
 
 ## **Table of Contents:**
 * [Installation](#Installation)
@@ -14,10 +14,10 @@ create a README generator using prompts in commandline
 * [Questions](#Questions)
 
 ## **Installation:**
-Download Node.js, clone files from repo to local folder, open in VS code, run npm install
+download Node.js, clone files from the repo to our local sytstem, openn the files in VS code, and run "npm install" in the command line
 
 ## **Usage:**
-run node index.js in command line, follow prompts and input personal project information, preview generated README
+run "node index.js" in command line, follow prompts, preview our generated README
 
 ## **License:**
 ![License Badge](https://img.shields.io/badge/license-The%20Unlicense-blue/)
@@ -51,10 +51,10 @@ For more information, please refer to <http://unlicense.org/>
     
 
 ## **Contributions:**
-Adjust design and categories of README file, clone to local system and push to your own personal repo 
+update to preferences on local computer and push to personal repo
 
 ## **Tests:**
-check to see if README file was generated in dist folder, console will return err if something went wrong
+check to see of a README was generated under "dist" folder otherwise terimal will return an error
 
 ## **Questions:**
 * To take a closer look at this app or my other work, checkout my [GitHub account](https://github.com/Metelak)

@@ -30,6 +30,8 @@ Step 3: Open files in VS Code, use terminal to run "npm install" to make sure al
 * Follow the prompts to input your personal project information, choose a license, and input your GitHub account/email.
 * Check out your generated README file located in "dist" folder, right click and open preview.
 
+[Find video instructions here](https://watch.screencastify.com/v/dqmNT1SbcX4IfC2Hewb6)
+
 ## **License:**
 ### **MIT License**
 
